@@ -24,9 +24,19 @@ h1, h2, h3, p {
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: black;
+    color: aliceblue;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: aliceblue;
+    opacity: 0.75;
 }
 
 .navbar-default .navbar-brand {
-    color: rgb(19, 17, 17);
+    color:aliceblue;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: aliceblue;
+    opacity: 0.75;
 }

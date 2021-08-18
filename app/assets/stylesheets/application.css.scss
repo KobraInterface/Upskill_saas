@@ -5,14 +5,28 @@ h1, h2, h3, p {
     font-family: 'Comfortaa', cursive;
 }
 
-body, .navbar {
+.navbar, .home-callout {
     // Gradient is Chitty Chitty Bang Bang courtesy of uigradients.com
     background: #007991;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #78ffd6, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-
 .navbar {
     border: none;
+}
+
+.home-callout {
+    margin-top: -20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    color: aliceblue;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
+
+.navbar-default .navbar-brand {
+    color: rgb(19, 17, 17);
 }

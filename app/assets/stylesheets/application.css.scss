@@ -1,10 +1,12 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+// Typography styles
 h1, h2, h3, p {
     font-family: 'Comfortaa', cursive;
 }
 
+//Background gradient
 .navbar, .home-callout {
     // Gradient is Chitty Chitty Bang Bang courtesy of uigradients.com
     background: #007991;  /* fallback for old browsers */
@@ -12,31 +14,25 @@ h1, h2, h3, p {
     background: linear-gradient(to right, #78ffd6, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+//Nav styles
 .navbar {
     border: none;
 }
 
+//Navbar styles
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-brand {
+    color: aliceblue;
+    &:hover {
+        color: aliceblue;
+        opacity: 0.75;
+    }
+}
+
+//Homepage styles
 .home-callout {
     margin-top: -20px;
     padding-top: 50px;
     padding-bottom: 100px;
     color: aliceblue;
-}
-
-.navbar-default .navbar-nav > li > a {
-    color: aliceblue;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-    color: aliceblue;
-    opacity: 0.75;
-}
-
-.navbar-default .navbar-brand {
-    color:aliceblue;
-}
-
-.navbar-default .navbar-brand:hover {
-    color: aliceblue;
-    opacity: 0.75;
 }

@@ -6,7 +6,7 @@
 
 // Typography styles
 h1, h2, h3, p {
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Open Sans', sans-serif;
 }
 
 //Background gradient
@@ -32,6 +32,20 @@ h1, h2, h3, p {
     }
 }
 
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border: 2px solid white;
+    &:hover, &:focus {
+        background-color: #007991;
+    }
+    
+}
+
+
 //Homepage styles
 .home-callout {
     margin-top: -20px;
@@ -41,6 +55,6 @@ h1, h2, h3, p {
 }
 
 .navbar-brand, .navbar-nav {
-    font-family: "Comfortaa", sans-serif;
-    font-weight: 800;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
 }
